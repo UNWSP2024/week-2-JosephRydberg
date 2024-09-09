@@ -1,3 +1,7 @@
+#Joseph Rydberg, 9/9/2024, TempConvert
+
+
+
 # Look at line 17 first.
 # This program introduces a couple new concepts,
 # we'll be covering those in the weeks ahead
@@ -8,9 +12,7 @@ def temp_conversion(celsius):
 
     # Calculate the Fahrenheit equivalent.
     fahrenheit = 0.0
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################    
+    fahrenheit = (9/5) * celsius + 32
 
 
     # Return the variable to the calling function
